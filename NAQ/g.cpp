@@ -15,9 +15,9 @@ int main() {
         cin >> n >> q >> g;
         unordered_map<ull, ull> people_to_genre;
         unordered_map<ull, ull> genre_to_count;
-        ull s, a;
-        char pq;
         while (q--) {
+            ull s, a;
+            char pq;
             cin >> pq >> s;
             if (pq == 'P') {
                 cin >> a;
